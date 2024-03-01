@@ -1,0 +1,42 @@
+{
+  "name": "chatgpt",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "package": "electron-builder"
+  },
+  "build": {
+    "appId": "com.awschat",
+    "productName": "ChatGPT",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/index.js",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "src/icons/logo.icns"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "devDependencies": {
+    "electron-builder": "^24.12.0",
+    "electron": "^29.1.0"
+  },
+  "keywords": [
+    "chatgpt",
+    "app",
+    "desktop",
+    "macos",
+    "linux",
+    "windows"
+  ]
+}
