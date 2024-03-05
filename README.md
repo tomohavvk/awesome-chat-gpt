@@ -22,8 +22,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 Clone the repository:
 
 ```
-git clone https://github.com/tomohavvk/awesome-chat-gpt.git
-cd awesome-chat-gpt
+git clone https://github.com/tomohavvk/awesome-chatgpt.git
+cd awesome-chatgpt
 ```
 
 Install dependencies:
